@@ -1,0 +1,23 @@
+heroku login
+pip install django-heroku
+settings.py
+import django_heroku
+no final
+django_heroku.settings(local())
+
+pip install gunicorn
+pip freeze > requirements.txt
+
+depois cria uma arquico com o nome Procfile
+web: gunicorn setup.wsgi
+
+no terminal 
+git init
+git add . 
+git commit -m "Nome do commit"
+heroku git:remote -a nome_do_projeto
+git push heroku master
+
+heroku run python manage.py migrate
+
+pip install django-on-heroku

@@ -1,0 +1,16 @@
+DEBUG=True
+SECRET_KEY="7ci00$0m9ygz5yf-h67tg7u_i@3v*_ci71+a9+8m7)mm5j%xq$"
+
+STATIC_ROOT=/padronizacao-laudos/static
+PROXY_SCRIPT_NAME=/api/padronizacao-laudos/
+
+DB_ENGINE=oracle
+DB_NAME=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.1.16.206)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=hospital)))
+DB_HOST=
+DB_PORT=
+DB_USER=conn_padlaud
+DB_PASSWORD=conn_padlaud
+DB_TABLE_OWNER_DEFAULT=padlaud
+
+API_BASE_URL=http://app-desenv.hapvida.com.br/api/hospital/apipadronizacaolaudos
+sbw-ykcz-qdx
